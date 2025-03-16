@@ -1,4 +1,5 @@
-* { margin: 0;
+* {
+    margin: 0;
 }
 
 header {
@@ -8,11 +9,29 @@ header {
     height: 40px;
     padding-top: 0.5em;
 }
+
 menu {
     background-color: gray;
     padding-left: 0;
-    padding-right: 1em;
+    padding-right: 1.5em;
+    height: 100%;;
 }
+
 .padre {
     display: flex;
+}
+
+.producto {
+    padding-bottom: 1em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+     "img img img "
+    ;
+}
+
+img {
+    grid-area: img;
 }
