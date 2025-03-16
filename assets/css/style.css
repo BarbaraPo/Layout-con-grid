@@ -1,0 +1,18 @@
+* { margin: 0;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: blue;
+    height: 40px;
+    padding-top: 0.5em;
+}
+menu {
+    background-color: gray;
+    padding-left: 0;
+    padding-right: 1em;
+}
+.padre {
+    display: flex;
+}
