@@ -1,20 +1,29 @@
 * {
-    margin: 0;
+    margin:0;
 }
 
+ 
 header {
     text-align: center;
     color: white;
-    background-color: blue;
+    background-color: rgb(233, 166, 132);
     height: 40px;
     padding-top: 0.5em;
 }
 
 menu {
-    background-color: gray;
-    padding-left: 0;
+    background-color: rgb(242, 203, 184);
+    padding-left: 0.4em;
     padding-right: 1.5em;
     height: 100%;;
+    
+}
+
+menu h4 {
+    padding: 0.6em;
+}
+menu p {
+    background-color:rgb(242, 203, 184)
 }
 
 .padre {
@@ -28,10 +37,27 @@ menu {
 .grid-container {
     display: grid;
     grid-template-areas:
-     "img img img "
-    ;
+     "img img img ";
+     gap: 10px;
+     width: 100%;
 }
 
 img {
     grid-area: img;
 }
+
+
+.oferta h5,h6,p {
+    display: flex;
+    justify-content:center;
+    background-color: white;
+
+    }
+.oferta h5 {
+    background-color:rgb(233, 166, 132);
+    padding: 0.5em;
+}
+
+footer {
+    text-align: center;
+    margin: 1em;}
