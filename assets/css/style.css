@@ -1,29 +1,37 @@
 * {
-    margin:0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
 }
 
- 
 header {
     text-align: center;
     color: white;
     background-color: rgb(233, 166, 132);
+    font-size: x-large;
     height: 40px;
-    padding-top: 0.5em;
+    padding: 0.3em;
+    padding-top: 0.8em;
+
 }
 
 menu {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(242, 203, 184);
-    padding-left: 0.4em;
+    padding-left: 1em;
     padding-right: 1.5em;
-    height: 100%;;
-    
+    height: 100%;
+    ;
 }
 
 menu h4 {
-    padding: 0.6em;
+    padding: 1em;
+    font-size: larger;
 }
+
 menu p {
-    background-color:rgb(242, 203, 184)
+    background-color: rgb(242, 203, 184)
 }
 
 .padre {
@@ -37,9 +45,10 @@ menu p {
 .grid-container {
     display: grid;
     grid-template-areas:
-     "img img img ";
-     gap: 10px;
-     width: 100%;
+        "img img img ";
+    gap: 10px;
+    padding-top: 1em;
+    width: 100%;
 }
 
 img {
@@ -47,17 +56,27 @@ img {
 }
 
 
-.oferta h5,h6,p {
+.oferta h5,
+h6 {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     background-color: white;
 
-    }
+}
+
+.oferta p {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+}
+
 .oferta h5 {
-    background-color:rgb(233, 166, 132);
+    background-color: rgb(233, 166, 132);
     padding: 0.5em;
 }
 
 footer {
     text-align: center;
-    margin: 1em;}
+    margin: 1em;
+}
